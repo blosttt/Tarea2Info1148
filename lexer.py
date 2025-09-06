@@ -1,4 +1,3 @@
-# lexer_final.py - VERSIÓN CORREGIDA
 import re
 
 class Token:
@@ -132,3 +131,4 @@ if __name__ == "__main__":
                 print(f"  {token}")
         except Exception as e:
             print(f"  ERROR: {e}")
+
