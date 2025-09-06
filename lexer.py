@@ -21,7 +21,8 @@ class Lexer:
             'else': 'ELSE', 
             'while': 'WHILE',
             'for': 'FOR',
-            'return': 'RETURN'
+            'return': 'RETURN',
+            'in': 'IN'
         }
         
         # 🔥 TOKENS REORDENADOS - LOS MÁS ESPECÍFICOS PRIMERO
@@ -131,4 +132,5 @@ if __name__ == "__main__":
                 print(f"  {token}")
         except Exception as e:
             print(f"  ERROR: {e}")
+
 
